@@ -1,0 +1,78 @@
+.mood-history {
+  padding: 10px 16px;
+  background: #1a1a1a;
+  border-bottom: 1px solid #333;
+}
+
+.mood-history-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.mood-history-title {
+  font-size: 11px;
+  color: #888;
+  margin: 0;
+}
+
+.mood-history-clear {
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.mood-history-clear:hover {
+  background: #3a3a3a;
+  color: #ff6b6b;
+}
+
+.mood-history-empty {
+  color: #666;
+  font-size: 11px;
+  text-align: center;
+  margin: 0;
+}
+
+.mood-history-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.mood-history-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #2a2a2a;
+}
+
+.mood-history-item:hover {
+  background: #3a3a3a;
+}
+
+.history-emoji {
+  font-size: 14px;
+}
+
+.history-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: #aaa;
+}
+
+.history-time {
+  font-size: 10px;
+  color: #666;
+}

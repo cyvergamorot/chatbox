@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Virtual environments
+venv/
+backend/venv/
+*.venv
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Cache
+.cache/
+.vite/
+__pycache__/
+*.pyc
+
+# Cloudflare
+cloudflared.exe
+ngrok.exe
