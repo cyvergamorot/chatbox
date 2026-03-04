@@ -6,7 +6,7 @@ import MoodHistory from './components/MoodHistory'
 import InputArea from './components/InputArea'
 import './App.css'
 
-const API_URL = ''  // Use proxy - requests to /api/* go to backend via Vite proxy
+const API_URL = import.meta.env.VITE_API_URL || ''  // Use proxy in dev, or direct URL in production
 
 // Mood emojis for quick reference
 const MOOD_EMOJI = {
